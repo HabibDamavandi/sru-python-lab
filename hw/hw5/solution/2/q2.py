@@ -1,0 +1,5 @@
+f = open('textfile.txt','r', encoding = "utf-8")
+txt = f.read()
+words = txt.split()
+print("total words:", len(words))
+f.close()
